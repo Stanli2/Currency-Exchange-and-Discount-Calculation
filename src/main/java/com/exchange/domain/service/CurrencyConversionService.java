@@ -1,6 +1,6 @@
 package com.exchange.domain.service;
 
-import com.exchange.domain.discount.CurrencyExchangeClient;
+import com.exchange.domain.integration.CurrencyExchangeClient;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

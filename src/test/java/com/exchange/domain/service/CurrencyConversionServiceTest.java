@@ -1,6 +1,6 @@
 package com.exchange.domain.service;
 
-import com.exchange.domain.discount.CurrencyExchangeClient;
+import com.exchange.domain.integration.CurrencyExchangeClient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

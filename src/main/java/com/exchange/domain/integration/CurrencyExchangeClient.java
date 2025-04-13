@@ -1,4 +1,4 @@
-package com.exchange.domain.discount;
+package com.exchange.domain.integration;
 
 
 import com.exchange.domain.model.dto.ExchangeRateResponse;
