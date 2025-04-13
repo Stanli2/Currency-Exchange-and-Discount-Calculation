@@ -4,10 +4,12 @@ import com.exchange.domain.model.dto.BillRequest;
 import com.exchange.domain.model.dto.BillResponse;
 import com.exchange.domain.model.entity.Item;
 import com.exchange.domain.model.entity.User;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
 
+@Service
 public class BillCalculationService {
 
     private final DiscountService discountService;

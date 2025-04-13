@@ -1,10 +1,12 @@
 package com.exchange.domain.service;
 
 import com.exchange.domain.discount.CurrencyExchangeClient;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+@Service
 public class CurrencyConversionService {
 
     private final CurrencyExchangeClient exchangeClient;
